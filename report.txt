@@ -1,0 +1,62 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<9>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5>>>
+
+3. Hours to complete the project: 9 hours
+
+4. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Calculating Edit Distance Using Dynamic Programming): Problem 1
+   took a long time for me to figure out. It was a huge step from the past 5
+   that I had previously done, because we had to work with 2D arrays (whereas
+   in Pascal's triangle, it was a ragged array). I watched a youtube video
+   that someone had posted on Piazza hoping that it would be helpful, but I
+   still could not figure out what the program is supposed to code. I reached
+   out to an upperclassman who had already taken the class and he walked me
+   thorugh some examples (SPAM and HAM on the Checklist page). After that, I
+   basically followed through the checklist. One tiny error I encountered that
+   got resolved by Laura Chamberlain was a "self.AssertEqual(got, sought)"
+   error. I found out that at the end, I had to include stdio.write(x) and y,
+   before writing the dimensions of the matrix to standard output. I also have
+   a style error whenever I run pycodestyle since some of my lines exceed 80
+   characters, so I used a backslash to insert onto a new line and aligned it
+   with the function max() and min().
+
+   Problem 2 (Recovering the Alignment): I knew that in order to do this
+   program, I had to have correctly coded edit_distance.py because the example
+   command-line input had that Problem, as well as '<' and '|', two symbols I
+   have never seen before. Since Problem 1 was all set, I got started on the
+   coding aspect. I did not know to to read from standard input the 2D matrix
+   opt, so I looked it up online. I knew to use an if-elif-else statement
+   because of the format of the conditions on the checklist, and I used another
+   if statement for if either x or y is exhausted before y or x. I did not know
+   we even had a data directory so I tried to input my own values before reali-
+   zing that there was, and from there I just used those files as testers.
+ 
+5. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Raymond Huang  grad  helped me figure out the basics of Problem 1
+   Laura Chamberlain  SI Instructor  helped with errors in my code for project1
+   Swami Iyer  professor  helped me figure out why my matrix printing diff. #s
+
+6. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   This project was exponentially more difficult than Project 1. It
+   took me a couple hours to even understand what genetic sequencing
+   was, and I used multiple online sources (such as the youtube video
+   regarding calculating edit distance posted on Piazza) to help me
+   comprehend the material. I did, however, feel accomplished when I
+   successfully completed the project!
